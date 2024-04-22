@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+.fundo{
+    background-image: url(img/musicians-work-inside-workshop-crafting-beautiful-instruments-generated-by-ai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.icone{
+    height: 150px;
+    width: 150px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    
+}
+
+a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    gap: 15px;
+}
+
+header h2{
+    font-size: 20px;
+}
+
+.fundo button{
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    width: 5%;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    border-color: white;
+    border-width: 3px;
+    margin-top: 20px;
+}
+
+.fundo button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+a:hover{
+    color: bisque;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.CrieConta{
+    margin-top: 40px;
+    width: 270px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    color: #fff;
+    text-align: center;
+}
+
+#inputPrimeiroNome{
+    margin-top: 20px;
+    width: 270px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    color: #fff;
+}
+
+#inputSobrenome{
+    margin-top: 20px;
+    width: 270px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    color: #fff;
+}
+
+#inputEmail{
+    margin-top: 20px;
+    width: 550px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    color: #fff;
+}
+
+#inputSenha{
+    margin-top: 20px;
+    width: 550px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    color: #fff;
+}
+
+.entrar button{
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    width: 30%;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+    border-width: 3px;
+    margin-top: 20px;
+}
+
+.entrar button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
